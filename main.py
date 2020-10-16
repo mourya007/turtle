@@ -1,9 +1,9 @@
 import turtle
 import time
 
-class  Test:
+class  Say_Love_You:
 
-   def start(self):
+   def I(self):
        turtle.penup()
        turtle.goto(-350, 0)
        turtle.pendown()
@@ -18,7 +18,7 @@ class  Test:
        turtle.left(180)
        turtle.forward(50)
 
-   def Middle(self):
+   def Love(self):
 
        turtle.penup()
        turtle.goto(-10, 0)
@@ -33,7 +33,7 @@ class  Test:
        turtle.forward(100)
        turtle.end_fill()
 
-   def end(self):
+   def U(self):
        turtle.penup()
        turtle.goto(200, 0)
        turtle.pendown()
@@ -60,9 +60,9 @@ class  Test:
        turtle.left(135)
        turtle.done()
 
-c = Test()
-c.start()
+c = Say_Love_You()
+c.I()
 time.sleep(1)
-c.Middle()
-time.sleep(1)
+c.Love()
+time.U(1)
 c.end()
