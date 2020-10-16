@@ -1,0 +1,68 @@
+import turtle
+import time
+
+class  Test:
+
+   def start(self):
+       turtle.penup()
+       turtle.goto(-350, 0)
+       turtle.pendown()
+       turtle.color("red")
+       turtle.forward(50)
+       turtle.left(180)
+       turtle.forward(25)
+       turtle.right(90)
+       turtle.forward(100)
+       turtle.left(90)
+       turtle.forward(25)
+       turtle.left(180)
+       turtle.forward(50)
+
+   def Middle(self):
+
+       turtle.penup()
+       turtle.goto(-10, 0)
+       turtle.pendown()
+       turtle.color("red", "red")
+       turtle.begin_fill()
+       turtle.left(50)
+       turtle.forward(100)
+       turtle.circle(40, 180)
+       turtle.left(260)
+       turtle.circle(40, 180)
+       turtle.forward(100)
+       turtle.end_fill()
+
+   def end(self):
+       turtle.penup()
+       turtle.goto(200, 0)
+       turtle.pendown()
+       turtle.forward(5)
+       turtle.color("red")
+       turtle.left(185)
+       turtle.forward(7.07)
+       turtle.right(45)
+       turtle.forward(95)
+       turtle.left(180)
+       turtle.forward(95)
+       turtle.left(45)
+       turtle.forward(7.07)
+       turtle.left(45)
+       turtle.forward(40)
+       turtle.left(45)
+       turtle.forward(7.07)
+       turtle.left(45)
+       turtle.forward(95)
+       turtle.left(180)
+       turtle.forward(95)
+       turtle.right(45)
+       turtle.forward(7.07)
+       turtle.left(135)
+       turtle.done()
+
+c = Test()
+c.start()
+time.sleep(1)
+c.Middle()
+time.sleep(1)
+c.end()
